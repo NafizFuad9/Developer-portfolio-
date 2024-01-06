@@ -110,3 +110,30 @@ font-weight: 700;
   font-weight: 400;
    
 }
+
+main{max-width: 1600px;
+margin:0 auto;}
+
+.aboutInfoContainer{display: flex;
+justify-content: space-around;}
+.aboutInfo{text-align: center;
+
+}
+
+.infoTitle{
+    color:#757575;
+   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  
+}
+.infoDescription{
+    color: #474747;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+
+
+}
