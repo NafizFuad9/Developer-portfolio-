@@ -1,0 +1,49 @@
+
+.title{
+    color: black;
+ 
+    font-size: 50px;
+    font-weight: 800;
+  
+}
+/* body shared styles */
+body{font-family: 'Open Sans', sans-serif;}
+
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+        
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+  
+  
+}
+nav li{list-style: none;
+margin: 40px;
+align-items: center;}
+
+nav a{
+    text-decoration: none;
+    color: rgb(10, 41, 66);
+}
+
+.primarycolor{
+    color: #FD6E0A;
+
+}
+ button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 700;
+    padding:12px ;
+
+    
+ }
+
