@@ -52,15 +52,17 @@ nav a{
 
  .header{
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
-     background-position: bottom right;
+     background-position: bottom right,top left;
 
 }
 
-.banner{padding: 30px 30px 0px 0px;
+.banner{
+    /* padding: 30px 30px 0px 0px; */
+    margin-left: 100px;
 display: flex;
-align-items: center;
+/* align-items: center; */
 justify-content: space-between;}
 
 .banner.profilePic{
@@ -81,8 +83,9 @@ justify-content: space-between;}
 }
 
 .banner content{
-max-width: 500px;
-    color: var(--Dark-03, #757575);
+width: 500px;
+    color:  #757575;
+    padding: o;
 
 }
 
